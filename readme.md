@@ -1,1 +1,1 @@
-test 
+This repo contains all the stuffs i learned during my react.js learning!
