@@ -28,32 +28,32 @@ import './App.css'
 
 // useState Hooks for multiple state variable
 
-// function App(){
-//  const [car , setCar] = useState( {
-//   brand: "Ferrari",
-//   color: "Red",
-//   model: "Roma", 
-//   year: "2023"
-//  } )
+//  function App(){
+//   const [car , setCar] = useState( {
+//    brand: "Ferrari",
+//    color: "Red",
+//    model: "Roma", 
+//    year: "2023"
+//   } )
 
-//  const changeColor = ()=>{
-//   // setCar ({...car, color:"blue"}) // we can use spread operator here to get all the values from the above object first method
-//   setCar ((prev)=>{
-//        return {...prev , color: "blue"}
-//   })
+//   const changeColor = ()=>{
+//     // setCar ({...car, color:"blue"}) // we can use spread operator here to get all the values from the above object first method
+//     setCar ((prev)=>{
+//          return {...prev , color:"blue"}
+//     })
   
+//   }
+
+//    return(
+//      <>
+//      <h1>My {car.brand} </h1>
+//      <h2>It is a {car.color} {car.model} from {car.year} </h2>
+//      <button onClick={changeColor} >Blue</button>
+//      </>
+//    )
 //  }
 
-//   return(
-//     <>
-//     <h1>My {car.brand} </h1>
-//     <h2>It is a {car.color} {car.model} from {car.year} </h2>
-//     <button onClick={changeColor} >Blue</button>
-//     </>
-//   )
-// }
-
-// export default App
+//  export default App
 
 // useEffect hook
 
