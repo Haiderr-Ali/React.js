@@ -15,13 +15,15 @@ function Home() {
   
     if (posts.length === 0) {
         return (
-            <div className="w-full py-8 mt-4 text-center">
+            <div className="w-full py-8 mt-4 text-center bg-white">
                 <Container>
                     <div className="flex flex-wrap">
                         <div className="p-2 w-full">
-                            <h1 className="text-2xl font-bold hover:text-gray-500">
-                               Please Login to read posts!
+                            <h1 className="text-8xl pb-3  hover:text-green-600">
+                            Welcome to <strong>Your Blog</strong>
                             </h1>
+                            <h2 className='hover:text-green-600 text-3xl pb-3'>Your Ultimate Destination for Technical Insights</h2>
+                            <p className='text-2xl font-medium text-green-800'>Please Login to read post!</p>
                         </div>
                     </div>
                 </Container>
