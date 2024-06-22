@@ -43,7 +43,7 @@ const Home = () => {
           <p>No Data Found</p>
         </div> 
       }
-    </div>
+    </div> 
   );
 };
 
