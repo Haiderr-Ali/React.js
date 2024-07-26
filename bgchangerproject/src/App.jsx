@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-    <h2 className="flex justify-center mt-5">Click the button! get the Color</h2>
+    <h2 className="flex justify-center mt-5">Click the button! get the Color.</h2>
     <div className="w-full h-screen duration-200"
     style={{backgroundColor: color}}
     >
